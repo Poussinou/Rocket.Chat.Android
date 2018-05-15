@@ -195,7 +195,7 @@ class ChatRoomsPresenter @Inject constructor(
                 } else {
                     null
                 },
-                name = it.name ?: "",
+                name = it.username ?: "",
                 fullName = it.name,
                 readonly = false,
                 updatedAt = null,
